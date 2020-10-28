@@ -1,0 +1,19 @@
+.normal {
+    padding: 1em;
+    background: white;
+}
+.create {
+    margin-bottom: 1.5em;
+}
+
+.operation a {
+    margin: 0 .5em;
+}
+.table{
+    width: 100%;
+}
+.panel{
+    background:#d9d9d9;
+    height: 30px;
+    width: 100%;
+}

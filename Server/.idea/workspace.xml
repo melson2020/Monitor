@@ -1,0 +1,992 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6f6b734d-b8af-4f43-ab38-c7590556572d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server_BP/src/main/java/com/fast/bpserver/nettyServer/NettyChannelHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server_BP/src/main/java/com/fast/bpserver/nettyServer/NettyChannelHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server_BP/src/main/java/com/fast/bpserver/service/impl/IBPASessionImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server_BP/src/main/java/com/fast/bpserver/service/impl/IBPASessionImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server_Monitor/src/main/java/com/fast/monitorserver/RSListenerClient/NettyClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server_Monitor/src/main/java/com/fast/monitorserver/RSListenerClient/NettyClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server_Monitor/src/main/java/com/fast/monitorserver/commandLineRunner/ResourcePCConnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server_Monitor/src/main/java/com/fast/monitorserver/commandLineRunner/ResourcePCConnect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server_Monitor/src/main/java/com/fast/monitorserver/dao/IResourceIpRefDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server_Monitor/src/main/java/com/fast/monitorserver/dao/IResourceIpRefDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server_Monitor/src/main/java/com/fast/monitorserver/dao/IRsPcUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server_Monitor/src/main/java/com/fast/monitorserver/dao/IRsPcUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server_Monitor/src/main/java/com/fast/monitorserver/entity/ResourceIpRef.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server_Monitor/src/main/java/com/fast/monitorserver/entity/ResourceIpRef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server_Monitor/src/main/java/com/fast/monitorserver/entity/RsPcUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server_Monitor/src/main/java/com/fast/monitorserver/entity/RsPcUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server_Monitor/src/main/java/com/fast/monitorserver/resource/OperationResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server_Monitor/src/main/java/com/fast/monitorserver/resource/OperationResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server_Monitor/src/main/java/com/fast/monitorserver/service/IResourceIpRef.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server_Monitor/src/main/java/com/fast/monitorserver/service/IResourceIpRef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server_Monitor/src/main/java/com/fast/monitorserver/service/IRsPcUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server_Monitor/src/main/java/com/fast/monitorserver/service/IRsPcUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server_Monitor/src/main/java/com/fast/monitorserver/service/impl/ResourceIpRefImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server_Monitor/src/main/java/com/fast/monitorserver/service/impl/ResourceIpRefImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server_Monitor/src/main/java/com/fast/monitorserver/service/impl/RsPcUserImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server_Monitor/src/main/java/com/fast/monitorserver/service/impl/RsPcUserImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server_Monitor/src/main/java/com/fast/monitorserver/service/impl/UserImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server_Monitor/src/main/java/com/fast/monitorserver/service/impl/UserImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server_Monitor/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Server_Monitor/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server_Monitor/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Server_Monitor/src/main/resources/application-prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server_Monitor/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Server_Monitor/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebClient/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../WebClient/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebClient/src/services/websocket.js" beforeDir="false" afterPath="$PROJECT_DIR$/../WebClient/src/services/websocket.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../botMonitor/.vs/botMonitor/v14/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../botMonitor/.vs/botMonitor/v14/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../botMonitor/botMonitor/App.config" beforeDir="false" afterPath="$PROJECT_DIR$/../botMonitor/botMonitor/App.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../botMonitor/botMonitor/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../botMonitor/botMonitor/MainWindow.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../botMonitor/botMonitor/bin/Debug/botMonitor.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../botMonitor/botMonitor/bin/Debug/botMonitor.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../botMonitor/botMonitor/bin/Debug/botMonitor.exe.config" beforeDir="false" afterPath="$PROJECT_DIR$/../botMonitor/botMonitor/bin/Debug/botMonitor.exe.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../botMonitor/botMonitor/bin/Debug/botMonitor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../botMonitor/botMonitor/bin/Debug/botMonitor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../botMonitor/botMonitor/bin/Debug/botMonitor.vshost.exe.config" beforeDir="false" afterPath="$PROJECT_DIR$/../botMonitor/botMonitor/bin/Debug/botMonitor.vshost.exe.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../botMonitor/botMonitor/obj/Debug/botMonitor.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../botMonitor/botMonitor/obj/Debug/botMonitor.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../botMonitor/botMonitor/obj/Debug/botMonitor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../botMonitor/botMonitor/obj/Debug/botMonitor.pdb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/server$MonitorserverApplication.coverage" NAME="MonitorserverApplication Coverage Results" MODIFIED="1575601731114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Server$MonitorserverApplication.coverage" NAME="MonitorserverApplication Coverage Results" MODIFIED="1584696042379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1evlUYOvpOgQ0shTo3vQXeuVl4m" />
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>JSP Inspections</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ToolWindowBean Validation.ShowToolbar" value="false" />
+    <property name="ToolWindowCoverage.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Retailer/javaServer/pom.xml" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.fast.bpserver.entity.vo" />
+      <recent name="com.fast.monitorserver.RSListenerClient" />
+      <recent name="com.fast.monitorserver.resource" />
+      <recent name="com.fast.bpserver.nettyServer" />
+      <recent name="com.fast.monitorserver.configuration" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Codes\Monitor\Server\Server_BP\src\main\java\com\fast\bpserver\resource" />
+      <recent name="D:\Codes\Monitor\Server\Server_BP\src\main\java\com\fast\bpserver\service" />
+      <recent name="D:\Codes\Monitor\Server\Server_Monitor\src\main\resources" />
+      <recent name="D:\Codes\Monitor\Server\Server_BP\src\main\java\com\fast\bpserver\base" />
+      <recent name="D:\Codes\Monitor\Server\Server_BP\src\main\java\com\fast\bpserver\dao" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:49200" />
+          <option name="urlPath" value="/resource/resourceListForWeb" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="requestTimeZone" />
+                <option name="value" value="-8" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="{ip: 2222, password:ee}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:49200" />
+          <option name="urlPath" value="/resource/resourceListForWeb" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="requestTimeZone" />
+                <option name="value" value="0" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="{ip: 2222, password:ee}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:49200" />
+          <option name="urlPath" value="/operation/command" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{ip: 2222, password:ee}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:49200" />
+          <option name="urlPath" value="/user/login" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{loginName: Nelson, password:ee}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:49200" />
+          <option name="urlPath" value="/user/login" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{''loginName'': &quot;Nelson&quot;, ''password'': &quot;ee&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:49200" />
+          <option name="urlPath" value="/user/login" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{loginName: &quot;Nelson&quot;, password: &quot;ee&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:49200" />
+          <option name="urlPath" value="/user/login" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{loginName: &quot;Nelson&quot;, password: &quot;1&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:49200" />
+          <option name="urlPath" value="/user/login" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{loginName: &quot;Nelson&quot;, password: &quot;1&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:49200" />
+          <option name="urlPath" value="/user/login" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="userName" />
+                <option name="value" value="Nelson" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:49200" />
+          <option name="urlPath" value="/user/login" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="username" />
+                <option name="value" value="Nelson" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:49200" />
+          <option name="urlPath" value="/user/login" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="username" />
+                <option name="value" value="Nelson" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="0" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:49200" />
+          <option name="urlPath" value="/user" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="username" />
+                <option name="value" value="Nelson" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="grailsApplicationRoot" value="" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MonitorserverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Server_Monitor" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fast.monitorserver.MonitorserverApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <envs>
+        <env name="server.port" value="49200" />
+      </envs>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TomeeConfiguration" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_Server" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="5343" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_Server" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="3642" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6f6b734d-b8af-4f43-ab38-c7590556572d" name="Default" comment="" />
+      <created>1575594871418</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575594871418</updated>
+      <workItem from="1575594874995" duration="21537000" />
+      <workItem from="1575850721063" duration="11949000" />
+      <workItem from="1575937638002" duration="6770000" />
+      <workItem from="1576024490787" duration="12734000" />
+      <workItem from="1576117274420" duration="4331000" />
+      <workItem from="1576200058504" duration="8701000" />
+      <workItem from="1576221321265" duration="7289000" />
+      <workItem from="1576458683960" duration="13648000" />
+      <workItem from="1576541853852" duration="18401000" />
+      <workItem from="1576631465707" duration="11026000" />
+      <workItem from="1576657525216" duration="654000" />
+      <workItem from="1576717687110" duration="1449000" />
+      <workItem from="1576734593395" duration="7983000" />
+      <workItem from="1576801537248" duration="3392000" />
+      <workItem from="1576811753920" duration="10463000" />
+      <workItem from="1577063911193" duration="16998000" />
+      <workItem from="1577148266728" duration="20466000" />
+      <workItem from="1577235000075" duration="20415000" />
+      <workItem from="1577328023134" duration="8011000" />
+      <workItem from="1577406317469" duration="22935000" />
+      <workItem from="1577667169164" duration="16515000" />
+      <workItem from="1577752590551" duration="18035000" />
+      <workItem from="1577924153586" duration="16402000" />
+      <workItem from="1578012662102" duration="16533000" />
+      <workItem from="1578272866990" duration="16383000" />
+      <workItem from="1578358058229" duration="5820000" />
+      <workItem from="1578443655955" duration="630000" />
+      <workItem from="1578446591926" duration="1899000" />
+      <workItem from="1578468935107" duration="1875000" />
+      <workItem from="1578528794282" duration="1250000" />
+      <workItem from="1578535873201" duration="10697000" />
+      <workItem from="1578616138520" duration="24300000" />
+      <workItem from="1578876833808" duration="9878000" />
+      <workItem from="1578961737800" duration="9229000" />
+      <workItem from="1579050528743" duration="6487000" />
+      <workItem from="1579135101509" duration="8201000" />
+      <workItem from="1579220299659" duration="17885000" />
+      <workItem from="1579480729503" duration="15051000" />
+      <workItem from="1579568094722" duration="17657000" />
+      <workItem from="1579655491922" duration="2310000" />
+      <workItem from="1580692931333" duration="631000" />
+      <workItem from="1580867010281" duration="5005000" />
+      <workItem from="1580953595998" duration="7374000" />
+      <workItem from="1580981012984" duration="1566000" />
+      <workItem from="1581045204168" duration="1399000" />
+      <workItem from="1581221062584" duration="1295000" />
+      <workItem from="1581313844726" duration="7733000" />
+      <workItem from="1581325626786" duration="1290000" />
+      <workItem from="1581573766709" duration="635000" />
+      <workItem from="1582505470417" duration="9425000" />
+      <workItem from="1582593189446" duration="2695000" />
+      <workItem from="1582608220407" duration="9957000" />
+      <workItem from="1582683246221" duration="2105000" />
+      <workItem from="1583898700311" duration="1252000" />
+      <workItem from="1584077150527" duration="2573000" />
+      <workItem from="1584319446956" duration="13315000" />
+      <workItem from="1584405042608" duration="19419000" />
+      <workItem from="1584493532909" duration="11462000" />
+      <workItem from="1584579045213" duration="21026000" />
+      <workItem from="1584665158492" duration="6840000" />
+      <workItem from="1584682140896" duration="5785000" />
+      <workItem from="1584923413531" duration="6224000" />
+      <workItem from="1585012079824" duration="19245000" />
+      <workItem from="1585096305541" duration="6574000" />
+      <workItem from="1585186539977" duration="4245000" />
+      <workItem from="1585270630637" duration="2084000" />
+      <workItem from="1585293890518" duration="18000" />
+      <workItem from="1585702406567" duration="4081000" />
+      <workItem from="1585788847754" duration="70000" />
+      <workItem from="1585790507879" duration="623000" />
+      <workItem from="1585874556310" duration="718000" />
+      <workItem from="1586217716892" duration="1470000" />
+      <workItem from="1588038943053" duration="6698000" />
+      <workItem from="1588126084272" duration="5264000" />
+      <workItem from="1588226241361" duration="2752000" />
+      <workItem from="1588726242389" duration="3497000" />
+      <workItem from="1588753336869" duration="1417000" />
+      <workItem from="1588817989725" duration="5638000" />
+      <workItem from="1588905156295" duration="3412000" />
+      <workItem from="1589176580263" duration="6740000" />
+      <workItem from="1589244980757" duration="1950000" />
+      <workItem from="1589332079624" duration="4440000" />
+      <workItem from="1590740677630" duration="615000" />
+      <workItem from="1590989132958" duration="4859000" />
+      <workItem from="1591065965579" duration="627000" />
+      <workItem from="1591342249448" duration="65000" />
+      <workItem from="1591342350411" duration="1233000" />
+      <workItem from="1592359316496" duration="1423000" />
+      <workItem from="1592438510819" duration="4498000" />
+      <workItem from="1593050727684" duration="644000" />
+      <workItem from="1595209965584" duration="2522000" />
+      <workItem from="1595215920039" duration="20000" />
+      <workItem from="1595216411419" duration="7406000" />
+      <workItem from="1595306458151" duration="2307000" />
+      <workItem from="1595487723978" duration="5304000" />
+      <workItem from="1595551257794" duration="4850000" />
+      <workItem from="1595810856667" duration="1043000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="428" y="217" key="FileChooserDialogImpl" timestamp="1595810931797">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="428" y="217" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1595810931797" />
+    <state width="1637" height="248" key="GridCell.Tab.0.bottom" timestamp="1595234632110">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="248" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1595234632110" />
+    <state width="1637" height="248" key="GridCell.Tab.0.center" timestamp="1595234632110">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="248" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1595234632110" />
+    <state width="1637" height="248" key="GridCell.Tab.0.left" timestamp="1595234632110">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="248" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1595234632110" />
+    <state width="1637" height="248" key="GridCell.Tab.0.right" timestamp="1595234632110">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="248" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1595234632110" />
+    <state x="532" y="332" key="com.intellij.ide.util.TipDialog" timestamp="1595810860096">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="532" y="332" key="com.intellij.ide.util.TipDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1595810860096" />
+    <state x="314" y="244" key="new project wizard" timestamp="1595317381338">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="314" y="244" key="new project wizard/0.0.1680.1010@0.0.1680.1010" timestamp="1595317381338" />
+    <state x="503" y="217" width="672" height="678" key="search.everywhere.popup" timestamp="1595560644402">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="503" y="217" width="672" height="678" key="search.everywhere.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1595560644402" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="resourceId" />
+        <watch expression="vo" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>Server_Monitor:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>server</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

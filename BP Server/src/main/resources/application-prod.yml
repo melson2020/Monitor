@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    url: jdbc:sqlserver://chqrpa71.database.windows.net:1433;DatabaseName=RPA_BP_Prd_Dashboard
+    username: chqrpa71_admin
+    password: BplsAwes0m3
+  jpa:
+    hibernate:
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+        ddl-auto: none
+        show-sql: true
+    database-platform: org.hibernate.dialect.SQLServerDialect
+
+server:
+  tomcat:
+      uri-encoding: UTF-8
+      max-http-header-size: 8192
+
+netty:
+  tcp:
+    server:
+     host: 127.0.0.1
+     # 作为客户端请求的服务端端口
+     port: 49300
